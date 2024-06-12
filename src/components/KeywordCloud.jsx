@@ -1,4 +1,3 @@
-// KeywordCloud.js
 import React from 'react';
 import { TagCloud } from 'react-tagcloud';
 import './KeywordCloud.css';
@@ -24,9 +23,11 @@ const customRenderer = (tag, size, color) => (
       fontSize: `${size}px`,
       border: `1px solid ${color}`,
       margin: '3px',
-      padding: '3px',
+      padding: '10px',
       display: 'inline-block',
+      // backgroundColor: 'white',
       color: 'black',
+
     }}
   >
     {tag.value}

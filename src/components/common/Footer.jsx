@@ -36,7 +36,7 @@ const Footer = ({ fontSize = "large" }) => {
       paddingTop: 1.5,
       paddingBottom: 3,
       width: "100vw",
-      height: "100px",
+      height: "50px",
     }}
   >
     <Container maxWidth="lg">
