@@ -1,0 +1,27 @@
+/* KeywordCloud.css */
+.simple-cloud {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  
+  .simple-cloud .tag-cloud-tag {
+    margin: 5px;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .simple-cloud .tag-cloud-tag:hover {
+    color: #007BFF;
+    transform: scale(1.1);
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
