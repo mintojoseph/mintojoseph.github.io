@@ -7,7 +7,7 @@ const Header = () => {
     const onDownload = () => {
         const link = document.createElement("a");
         link.download = `Resume-minto-with-pic.pdf`;
-        link.href = "/src/assets/Resume-minto-with-pic.pdf";
+        link.href = "./Resume-minto-with-pic.pdf";
         link.click();
       };
 

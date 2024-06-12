@@ -82,7 +82,7 @@ const Footer = ({ fontSize = "large" }) => {
             sx={{ mx: 1, color: "text.primary", "&:hover": { cursor: "pointer" }}}
             onClick={() => {
             window.open(
-                "/src/assets/Resume-minto-with-pic.pdf",
+                "./Resume-minto-with-pic.pdf",
                 "_blank"
               );
             }}

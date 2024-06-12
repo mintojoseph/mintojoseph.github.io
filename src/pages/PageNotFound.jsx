@@ -8,7 +8,7 @@ function PageNotFound() {
     <Container maxWidth="md" sx={{ textAlign: "center", py: 10 }}>
       <Grid container spacing={4} alignItems="center" justifyContent="center">
         <Grid item xs={12}>
-          <Typography variant="h1" gutterBottom>
+          <Typography variant="h3" gutterBottom>
             Oooops!
           </Typography>
           <Typography variant="h5" color="text.secondary">
