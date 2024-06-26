@@ -18,7 +18,7 @@ const Header = () => {
         <Typography align="left" variant="h6" sx={{ flexGrow: 1 }} >
           Minto Joseph
         </Typography>
-        {/* <Button color="inherit" component={RouterLink} to="/"
+        <Button color="inherit" component="a" href="https://mintos.dev/vitepress-blog/" target='_blank' rel="noopener noreferrer"
                   sx={{
                     '&:hover': {
                       color: 'white'
@@ -28,8 +28,9 @@ const Header = () => {
                     }
                   }}
         >
-          Home
-        </Button> */}
+          Blog
+        </Button>
+
         <Button color="inherit" onClick={onDownload} 
                   sx={{
                     '&:hover': {
